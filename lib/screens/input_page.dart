@@ -128,7 +128,7 @@ int age = 18;
                           min: 120.0,
                           max: 220.0,
                           activeColor: Color(0xffeb1555),
-                          inactiveColor: Color(0xff8d8e98),
+                          inactiveColor: Colors.white,
                           onChanged: (double newValue){
                             setState(() {
                               height = newValue.round();
@@ -319,7 +319,7 @@ class RoundIconButton extends StatelessWidget {
         height: 56.0,
       ),
       shape: CircleBorder(),
-      fillColor: Color(0xff4c4f5e),
+      fillColor: Color(0xffCDDC39),
     );
   }
 }
